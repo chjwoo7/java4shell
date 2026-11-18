@@ -1,4 +1,10 @@
-# java4shell-research
+# java4shell
+
+**Personal research.** This is independent, self-directed study of
+CVE-2026-114938 carried out on hardware and containers I own. It is not
+affiliated with, endorsed by, or derived from any employer, vendor, or
+engagement. Everything here is lab-only: the targets are containers I built
+for the purpose.
 
 Working research lab for **CVE-2026-114938 ("Java4Shell")** — an integer
 underflow in OpenJDK HotSpot's AVX-512 VBMI Base64 decode intrinsic that
