@@ -1,0 +1,11 @@
+services:
+  lab:
+    build: .
+    image: j4s-spring-lab:local
+    container_name: j4s-spring
+    ports:
+      - "127.0.0.1:18080:8080"
+    # AVX-512 VBMI must be visible to the JVM inside the container.
+    # Docker Desktop passes host CPUID through by default on x86-64.
+    security_opt:
+      - seccomp:unconfined

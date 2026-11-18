@@ -1,0 +1,19 @@
+# Workspace policy / agent instructions — not part of the research artifact
+AGENTS.md
+
+# Superseded or false-positive tooling, kept locally only
+archive/
+
+# Tooling state
+.commandcode/
+__pycache__/
+*.pyc
+
+# Compiled output
+*.class
+target/
+lab/spring/target/
+
+# Local run artifacts
+run.log
+hs_err_pid*.log
